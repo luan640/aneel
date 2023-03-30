@@ -1,0 +1,41 @@
+1) REQUISIÇÃO E ORGANIZAÇÃO DOS DADOS 
+Use a API da ANEEL para requisição de dados do pacote “relação de empreendimentos 
+de geração distribuída”. 
+Obs. 1.1: Sugerimos a utilização do “Python” para o consumo de API, mas poderá ser 
+usada a linguagem de programação em que achar mais adequada. 
+Links de referência: 
+ https://dadosabertos.aneel.gov.br/
+ https://docs.ckan.org/en/2.9/api/
+ Agregar os dados em base mensal: 
+o Total de empreendimentos por classe (Residencial, comercial, “...”) e 
+estado federativo; 
+o Potência instalada de cada estado; 
+Obs. 1.2: Uso das colunas “DatGeracaoConjuntoDados”, ”DscClasseConsumo“, 
+“MdaPotenciaInstaladaKW” e “SigUF” 
+ Organização dos dados para estrutura similar a banco de dados SQL: exportar 
+dados em arquivos “json” e “csv” 
+
+2) EXPOSIÇÃO DOS DADOS EM FORMA GRÁFICA 
+- Selecione 2 das opções abaixo: 
+• Opção 1: Elaboração de um gráfico mostrando a evolução temporal do Total 
+Mensal de Empreendimentos por Estado e por Classe de Consumo; - OK
+• Opção 2: Elaboração de um gráfico mostrando a evolução temporal da Potência 
+Instalada Total (KW) por Estado; - OK 
+• Opção 3 (obrigatória): Selecione algumas das variáveis trabalhadas de forma 
+livre, e faça a exposição da maneira que achar mais adequada (Será adotado 
+como diferencial o uso da criatividade). 
+Obs. 2.1: Sugerimos o uso de html, CSS, JavaScript, etc, porém a exposição dos dados 
+em forma gráfica poderá ser feita através de outras ferramentas gráficas. 
+Obs. 2.2 - Informações a serem enviadas: 
+ Códigos elaborados de Back e Front-end 
+Obs 2.3: os arquivos devem ser de fácil interação, a preferência para acessar o 
+conteúdo em Front-end (como os gráficos) é que não tenha necessidade de 
+instalar bibliotecas, softwares e afins (por exemplo: o Front-end elaborado em 
+html deve abrir uma aba no navegador com o conteúdo produzido); 
+ Dados exportados; 
+ Link de outras plataformas de DashBoard, caso utilizados. 
+
+3) APRESENTAÇÃO DOS GRÁFICOS 
+Após o envio dos arquivos e conteúdo produzido (conforme item 2), será agendado uma 
+data para o candidato apresentar os gráficos elaborados num intervalo de no máximo 
+10 minutos, de forma suscinta e objetiva.
